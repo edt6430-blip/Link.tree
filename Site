@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDIT_WO - Meus Links</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    background: #000;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile {
+    position: relative;
+    width: min(100vw, 866px);
+    line-height: 0;
+    overflow: hidden;
+}
+
+.design {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hit {
+    position: absolute;
+    display: block;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* Áreas clicáveis */
+
+.youtube {
+    left: 25.5%;
+    top: 33.45%;
+    width: 19.9%;
+    height: 11.25%;
+}
+
+.tiktok {
+    left: 52%;
+    top: 33.45%;
+    width: 19.9%;
+    height: 11.25%;
+}
+
+.roblox {
+    left: 9.9%;
+    top: 44.8%;
+    width: 80.9%;
+    height: 11.35%;
+}
+
+.xmls {
+    left: 10%;
+    top: 57.7%;
+    width: 80.8%;
+    height: 11.55%;
+}
+
+.gold {
+    left: 10%;
+    top: 70.25%;
+    width: 80.8%;
+    height: 11.75%;
+}
+
+.more {
+    left: 10%;
+    top: 83%;
+    width: 80.8%;
+    height: 12.1%;
+}
+</style>
+</head>
+
+<body>
+
+<main class="profile">
+
+    <!-- Imagem original do design -->
+    <img class="design" src="design.jpg" alt="EDIT_WO">
+
+    <!-- YouTube -->
+    <a class="hit youtube"
+       href="https://m.youtube.com/@ed1t_w0"
+       target="_blank"></a>
+
+    <!-- TikTok -->
+    <a class="hit tiktok"
+       href="https://www.tiktok.com/@ed1t_w0"
+       target="_blank"></a>
+
+    <!-- Roblox -->
+    <a class="hit roblox"
+       href="https://www.roblox.com/pt/users/10852674724/profile"
+       target="_blank"></a>
+
+    <!-- XMLS -->
+    <a class="hit xmls" href="#"
+       onclick="return false"></a>
+
+    <!-- Gold Motion -->
+    <a class="hit gold"
+       href="https://mediafire.com/file/rk47ay2p8ulhjer/Gold+Motion+V7.0.4.apk/file"
+       target="_blank"></a>
+
+    <!-- Mais Links -->
+    <a class="hit more" href="#"
+       onclick="return false"></a>
+
+</main>
+
+</body>
+</html>
